@@ -2,6 +2,8 @@
 
 Just a simple link shortener using the [shrtcode](https://shrtco.de/docs) api
 
+[site](https://kosy-link-shortener.netlify.app)
+
 ### Technologies used
 
 - [React](https://reactjs.org/)
