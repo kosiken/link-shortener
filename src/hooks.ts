@@ -28,7 +28,7 @@ export function useShortenUrl() {
         // this is just a primitive delay function because 
         // 'api.shrtco.de/v2' only ratelimits 1 request/sec
         await delayed(1000);
-        const response = await fetch('https://api.shrtco.de/v2/shorten?url' + data, {
+        const response = await fetch('https://api.shrtco.de/v2/shorten?url=' + data, {
         method: 'GET',
         })
         const responseData = (await response.json()) as  ApiResponse;
